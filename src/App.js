@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/">
+        <Route path="/personal">
           <Route index element={<LandingPage />} />
         </Route>
       </Routes>
