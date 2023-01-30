@@ -1,0 +1,41 @@
+section.experience {
+	width: 600px;
+	margin-top: 30px;
+	border-left: 1px solid #242424;
+	border-right: 1px solid #242424;
+}
+
+section.experience header {
+	margin-bottom: 10px;
+}
+
+section.experience header h1 {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	color: #242424;
+}
+
+section.experience .experience-list {
+	margin-bottom: 10px;
+}
+
+section.experience .experience-list .year {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.5rem;
+	color: #242424;
+}
+
+section.experience .experience-list ul li {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.5rem;
+	color: #242424;
+}
+
+section.experience .experience-list ul li a {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.5rem;
+	color: #242424;
+}

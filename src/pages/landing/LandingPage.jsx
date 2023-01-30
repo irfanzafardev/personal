@@ -1,11 +1,25 @@
 import React from "react";
-import Header from "../../components/header/Header";
+import Introduction from "../../components/introduction/Introduction";
+import About from "../../components/about/About";
+import Contact from "../../components/contact/Contact";
+import Project from "../../components/project/Project";
+import Experience from "../../components/experience/Experience";
+
+import "./style.css";
 
 const LandingPage = () => {
 	return (
-		<>
-			<Header />
-		</>
+		<main>
+			<div>
+				<Introduction />
+				<About />
+				<Contact />
+				<Project />
+				{/* <Experience /> */}
+				{/* <Education /> */}
+				{/* <Achievement /> */}
+			</div>
+		</main>
 	);
 };
 

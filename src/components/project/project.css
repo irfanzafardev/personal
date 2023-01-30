@@ -1,0 +1,47 @@
+section.project {
+	width: 600px;
+	margin-top: 60px;
+}
+
+section.project header {
+	margin-bottom: 10px;
+}
+
+section.project header h1 {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	color: #242424;
+}
+
+section.project .project-list-item {
+	margin-bottom: 20px;
+}
+
+section.project .project-list .year {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	line-height: 1.5rem;
+	color: #242424;
+}
+
+section.project .project-list ul li a {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	line-height: 1.5rem;
+	color: #242424;
+}
+
+section.project .project-list ul li.stack {
+	font-family: "Roboto", sans-serif;
+	font-size: 12px;
+	line-height: 1.5rem;
+	color: #242424;
+}
+
+section.project .project-list ul li.description {
+	margin-top: 10px;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	line-height: 1.5rem;
+	color: #242424;
+}

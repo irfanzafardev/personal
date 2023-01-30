@@ -1,0 +1,36 @@
+section.introduction {
+	width: 600px;
+}
+
+section.introduction .profile-image img {
+	width: 88px;
+	border-radius: 100%;
+}
+
+section.introduction .profile-details {
+	padding-left: 10px;
+}
+
+section.introduction .profile-details .name {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #000;
+}
+
+section.introduction .profile-details .profession {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #000;
+}
+
+section.introduction .profile-details .region {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #000;
+}
