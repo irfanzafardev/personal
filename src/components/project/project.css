@@ -1,10 +1,11 @@
 section.project {
-	width: 600px;
+	width: 100%;
 	margin-top: 60px;
+	padding-inline: 12px;
 }
 
 section.project header {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 section.project header h1 {
@@ -43,5 +44,6 @@ section.project .project-list ul li.description {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
 	line-height: 1.5rem;
-	color: #242424;
+	text-align: justify;
+	color: #6b7280;
 }

@@ -7,17 +7,22 @@ const Introduction = () => {
 	return (
 		<section className="introduction">
 			<div className="row">
-				<div className="col-3 col-md-2 col-lg-2">
+				<div className="col-3 col-md-2 col-lg-2 p-0">
 					<div className="profile-image">
 						<img src={ProfileImg} alt="" />
 					</div>
 				</div>
 				<div className="col-7 col-md-8 col-lg-10">
 					<div className="profile-details">
-						<ul class="list-group">
-							<li class="name">Irfan Zafar</li>
-							<li class="profession">A Front-end Developer Wannabe</li>
-							<li class="region">Jakarta 13540</li>
+						<ul className="list-group">
+							<li className="name">Irfan Zafar</li>
+							<li className="profession">
+								A Full-stack Developer at{" "}
+								<a href="https://www.lamacca.com/ " target="_blank" rel="noreferrer">
+									Lamacca
+								</a>
+							</li>
+							<li className="region">Jakarta 13540</li>
 						</ul>
 					</div>
 				</div>

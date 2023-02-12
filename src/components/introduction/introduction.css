@@ -1,5 +1,17 @@
 section.introduction {
-	width: 600px;
+	width: 100%;
+	padding-inline: 12px;
+}
+
+@media screen and (max-width: 576px) {
+	section.introduction {
+		padding-inline: 10px;
+	}
+}
+
+section.introduction .profile-image {
+	width: 100%;
+	padding-inline: 12px;
 }
 
 section.introduction .profile-image img {
@@ -8,7 +20,7 @@ section.introduction .profile-image img {
 }
 
 section.introduction .profile-details {
-	padding-left: 10px;
+	padding-left: 0px;
 }
 
 section.introduction .profile-details .name {
@@ -19,12 +31,25 @@ section.introduction .profile-details .name {
 	color: #000;
 }
 
+@media screen and (max-width: 576px) {
+	section.introduction .profile-details .name {
+		font-size: 14px;
+	}
+}
+
 section.introduction .profile-details .profession {
 	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 30px;
-	color: #000;
+	color: #6b7280;
+}
+
+section.introduction .profile-details .profession a {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.5rem;
+	color: #6b7280;
 }
 
 section.introduction .profile-details .region {
@@ -32,5 +57,13 @@ section.introduction .profile-details .region {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 30px;
-	color: #000;
+	color: #6b7280;
+}
+
+@media screen and (max-width: 576px) {
+	section.introduction .profile-details .profession,
+	section.introduction .profile-details .profession a,
+	section.introduction .profile-details .region {
+		font-size: 12px;
+	}
 }

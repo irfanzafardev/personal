@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap");
+
 main {
 	display: flex;
-	align-items: baseline;
 	justify-content: center;
 	margin-top: 100px;
 	margin-bottom: 60px;
+}
+
+.container-fluid {
+	padding-inline: 12px;
+	/* background: red; */
 }
