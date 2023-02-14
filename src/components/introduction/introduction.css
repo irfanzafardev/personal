@@ -1,5 +1,6 @@
 section.introduction {
 	width: 100%;
+	margin-top: 20px;
 	padding-inline: 12px;
 }
 
@@ -50,6 +51,9 @@ section.introduction .profile-details .profession a {
 	font-size: 16px;
 	line-height: 1.5rem;
 	color: #6b7280;
+}
+section.introduction .profile-details .profession a:hover {
+	color: #000;
 }
 
 section.introduction .profile-details .region {

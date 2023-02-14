@@ -6,6 +6,7 @@ import Contact from "../../components/contact/Contact";
 import Project from "../../components/project/Project";
 
 import "./style.css";
+import Navbar from "../../components/nav/Navbar";
 
 const LandingPage = () => {
 	return (
@@ -13,6 +14,7 @@ const LandingPage = () => {
 			<div className="container-fluid">
 				<div className="row justify-content-center">
 					<div className="col-xl-5 col-lg-4 col-md-8 col-12 mx-2">
+						<Navbar />
 						<Introduction />
 						<Summarry />
 						<About />
