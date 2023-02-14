@@ -15,7 +15,7 @@ const Navbar = () => {
 						</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="https://www.notion.so/irfan-zafar/My-Development-Stacks-614396e3cca349fca4539aaa0a9cd4fe" target="_blank">
+						<a className="nav-link" href="https://irfan-zafar.notion.site/My-Development-Stacks-614396e3cca349fca4539aaa0a9cd4fe" target="_blank">
 							Stack
 							<FiArrowUpRight />
 						</a>
